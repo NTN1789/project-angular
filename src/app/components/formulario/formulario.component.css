@@ -1,0 +1,92 @@
+main {
+    background-color: #405d6d;
+    width: 100%;
+  }
+  .form-container {
+    background-color: #355d73;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 900px;
+    margin-top: 1.5%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h3 {
+    color: white;
+    margin-bottom: 2.5rem;
+    font-family: "Be Vietnam Pro";
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  
+  label {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 2.4rem;
+    padding: 10px 10px;
+    font-size: 1rem;
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20vh;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #26963d;
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-group {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .submit-btn {
+      width: 100%;
+      margin: 1rem 0;
+    }
+  }
+  
